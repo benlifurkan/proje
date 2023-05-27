@@ -33,7 +33,7 @@ header .logo{
     text-align: center;
     width: 95px;
     height: 75px;
-    background-color: #8aafde;
+    background-color: rgb(12,120,164);
     border-radius: 0px 10px 10px 0px;
     transition: 500ms all;
 }
