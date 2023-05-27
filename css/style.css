@@ -153,7 +153,11 @@ header nav .menu-icon i{
 /* MEMLEKET TANITIM*/
 
 
-
+.promotion{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
 
 
 
