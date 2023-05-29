@@ -254,4 +254,8 @@ header nav .menu-icon i{
     header nav .menu-icon{
         display: block;
     }
+
+    .promotion .container .content .subject{
+        width: 85%;
+    }
 }
