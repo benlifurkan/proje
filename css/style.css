@@ -10,6 +10,7 @@
 }
 
 body{
+    font-family: "Poppins" , sans-serif;
     position: relative;
     /*background-color: #8aafde;*/
     background: #8aafde;
@@ -21,6 +22,7 @@ header{
     position: fixed;
     top: 0px;
     z-index: 500;
+    border-radius: 0px 0px 30px 30px;
 }
 
 nav{
@@ -154,14 +156,54 @@ header nav .menu-icon i{
 
 
 .promotion{
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    margin: 200px auto 100px auto;
+    width: 85%;
+    color: white;
+    background-color: rgb(20, 25, 41);
+    /*opacity: 85%;*/
+    border-radius: 50px 50px;
+    padding: 25px;
 }
 
-.promotion .container h3{
-    color: white;
+.promotion .container .content .subject{
+    margin: 0 auto 190px auto;
+    width: 72%;
+}
+
+.promotion .container .content .subject h4{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(236, 53, 53);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.promotion .container .content .subject .image{
+    margin: auto auto 30px auto;
+    text-align: center;
+}
+
+.promotion .container .content .subject .image img{
+    width: 98%;
+    border-radius: 20px;
+    margin: auto auto 0px auto;
+}
+
+.promotion .container .content .subject h3{
+    text-align: center;
+    color: rgb(115, 153, 240);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.promotion .container .content .subject p{
+    text-align: justify;
+    color: #ebe5e5;
+    margin-top: 20px;
+}
+
+.promotion .container .content .subject p span{
+    background-color: rgb(62, 6, 65);
 }
 
 
