@@ -1,16 +1,16 @@
-<html lang="en">
+<!DOCTYPE html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furkan Benli - Ana sayfa</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon/f-mix.png">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav>   
             <div class="logo">
                 <a href="index.html">
                     <img src="img/logo/logo.png" alt="Logo">
@@ -45,6 +45,100 @@
             </div>
         </div>
     </header>
+
+    <div class="slider">
+        <div class="slide">
+            <img src="img/slider/slider1.png" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="img/slider/slider2.png" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="img/slider/slider3.png" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="img/slider/slider4.png" alt="Slide 4">
+        </div>
+        <div class="slide">
+            <img src="img/slider/slider5.png" alt="Slide 5">
+        </div>
+    </div>
+
+    <div class="ad">
+            <div class="title">
+                <h3>İlgini çekebilecek ürünler</h3>
+                <div class="adSubtitle">
+                    <h6>Güç ve İnovasyon Bir Arada, Teknolojik Aletlerimizle Sınırları Zorlayın!</h6>
+                </div>
+            </div>
+            <div class="container">
+                <div id="desk" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Çalışma Masası</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Verimli düşünceye dönüşün, ideal çalışma masasıyla.</h5>
+                    </div>
+                </div>
+                <div id="headset" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Oyuncu Kulaklığı</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Oyunun içine dalmak için mükemmeliğe kulak verin!</h5>
+                    </div>
+                </div>
+                <div id="mouse" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Oyuncu Faresi</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Kontrolünüze güç katın, zaferinizi fareyle şekillendirin!</h5>
+                    </div>
+                </div>
+            </div> 
+            <div class="container">
+                <div id="mousepad" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Mousepad</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Kesintisiz kontrol, mükemmel kayma! Mousepad ile oyun deneyimini en üst seviyeye taşıyın!</h5>
+                    </div>
+                </div>
+                <div id="keyboard" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Oyuncu Klavyesi</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Hızlı tepki, kesintisiz zafer! Oyuncu klavyesiyle sınırları aşın!</h5>
+                    </div>
+                </div>
+                <div id="monitor" class="adBox">
+                    <div class="adBoxTitle">
+                        <h2>Monitör</h2>
+                    </div>
+                    <div class="adBoxText">
+                        <h5>Görüntünün gücü, zaferin anahtarı! Yüksek performanslı monitörlerle gerçeklikten kopmayın!</h5>
+                    </div>
+                </div>
+            </div> 
+    </div>
+
+      <script>
+        // Slider'ın otomatik olarak geçmesi için JavaScript kullanabilirsiniz
+        // Aşağıdaki kodu body etiketinin sonunda veya window.onload olayı içinde kullanabilirsiniz
+    
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 2000); // Her 2 saniyede bir slaytı değiştirir
+    
+        function nextSlide() {
+          slides[currentSlide].style.display = 'none';
+          currentSlide = (currentSlide + 1) % slides.length;
+          slides[currentSlide].style.display = 'block';
+        }
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>

@@ -13,7 +13,10 @@ body{
     font-family: "Poppins" , sans-serif;
     position: relative;
     /*background-color: #8aafde;*/
-    background: #8aafde;
+    /*background: #8aafde;*/
+    background: #ccc;
+    /*background-image: url(../img/background/seamless.jpg);
+    background-size: contain;*/
 }
 
 header{
@@ -151,8 +154,120 @@ header nav .menu-icon i{
     color: #8aafde;
 }
 
+/* MAIN PAGE SLIDER*/
 
-/* MEMLEKET TANITIM*/
+.slider{
+    margin: 100px auto 0px auto;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.slide{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* MAIN PAGE AD */
+
+.ad{
+    margin: 100px auto 100px auto;
+    width: 80%;
+}
+
+.ad .title{
+    font-family: 'Poppins' , cursive;
+    margin-bottom: 50px;
+    
+}
+
+.ad .title h3{
+    color: black;
+    font-size: 20px;
+}
+
+.ad .title .adSubtitle{
+    margin-top: 10px;
+}
+
+.ad .title .adSubtitle h6{
+    color: #2b2222cc;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.ad .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad .container .adBox{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    margin: 10px 10px;
+    background-color: black;
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-family: 'Poppins' , cursive;
+    font-weight: bold;
+}
+
+.ad .container .adBox .adBoxTitle{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.ad .container .adBox .adBoxText{
+    
+}
+
+.ad .container #desk{
+    background-image: url(../img/adBox/crop/desk.jpg);
+    background-size: cover;
+}
+.ad .container #headset{
+    background-image: url(../img/adBox/crop/headset.jpg);
+    background-size: cover;
+}
+.ad .container #mouse{
+    background-image: url(../img/adBox/crop/mouse.jpg);
+    background-size: cover;
+}
+.ad .container #mousepad{
+    background-image: url(../img/adBox/crop/mousepad.jpg);
+    background-size: cover;
+}
+.ad .container #keyboard{
+    background-image: url(../img/adBox/crop/keyboard.jpg);
+    background-size: cover;
+}
+.ad .container #monitor{
+    background-image: url(../img/adBox/crop/monitor.jpg);
+    background-size: cover;
+}
+
+
+
+/* TOWN PROMOTION*/
 
 
 .promotion{
@@ -258,5 +373,13 @@ header nav .menu-icon i{
     .promotion .container .content .subject{
         width: 85%;
         margin-bottom: 95px;
+    }
+
+    .ad .container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
 }
