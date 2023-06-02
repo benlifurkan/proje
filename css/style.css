@@ -414,4 +414,8 @@ header nav .menu-icon i{
         justify-content: center;
         align-items: center;
     }
+
+    .sliderText{
+        font-size: 15px;
+    }
 }
