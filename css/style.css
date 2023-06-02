@@ -233,11 +233,11 @@ header nav .menu-icon i{
     font-size: 20px;
 }
 
-.ad .title .adSubtitle{
+.ad .adSubtitle{
     margin-top: 10px;
 }
 
-.ad .title .adSubtitle h6{
+.ad .adSubtitle h6{
     color: #2b2222cc;
     font-size: 1em;
     font-weight: normal;
@@ -254,7 +254,6 @@ header nav .menu-icon i{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /*position: relative;*/
     width: 300px;
     height: 300px;
     padding: 40px;
