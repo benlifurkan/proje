@@ -440,7 +440,7 @@ header nav .menu-icon i{
         margin-bottom: 95px;
     }
 
-    .ad .container .adBox{
+    /*.ad .container .adBox{
         width: 100px;
         height: 100px;
     }
@@ -453,7 +453,7 @@ header nav .menu-icon i{
 
     .ad .container .adBoxText{
         font-size: 8px;
-    }
+    }*/
 
     /*.ad .container{
         width: 100%;
@@ -487,8 +487,8 @@ header nav .menu-icon i{
     }
 
     .vision .container .image img{
-        width: 80px;
-        height: 60px;
+        width: 90px;
+        height: 80px;
     }
 
 }
