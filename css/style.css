@@ -218,7 +218,7 @@ header nav .menu-icon i{
 /* MAIN PAGE AD */
 
 .ad{
-    margin: 100px auto 100px auto;
+    margin: 100px auto 200px auto;
     width: 80%;
 }
 
@@ -229,12 +229,14 @@ header nav .menu-icon i{
 }
 
 .ad .title h3{
+    margin-top: 50px;
     color: black;
     font-size: 20px;
 }
 
 .ad .adSubtitle{
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .ad .adSubtitle h6{
@@ -250,6 +252,7 @@ header nav .menu-icon i{
 }
 
 .ad .container .adBox{
+    position: relative;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -295,7 +298,39 @@ header nav .menu-icon i{
     background-size: cover;
 }
 
+/* MAIN PAGE  VISION*/
 
+.vision{
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.vision .container{
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    /*border: 1px solid black;*/
+    border-radius: 50px;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px #039ee0;
+}
+
+.vision .container .text{
+    font-size: 20px;
+    padding: 50px;
+    width: 30%;
+    word-spacing: 5px;
+}
+
+.vision .container .image img{
+    text-align: right;
+    width: 400px;
+    height: 600px;
+}
 
 /* TOWN PROMOTION*/
 
@@ -405,15 +440,55 @@ header nav .menu-icon i{
         margin-bottom: 95px;
     }
 
-    .ad .container{
+    .ad .container .adBox{
+        width: 100px;
+        height: 100px;
+    }
+
+    .ad .container .adBox .adBoxTitle{
+        font-size: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ad .container .adBoxText{
+        font-size: 8px;
+    }
+
+    /*.ad .container{
         width: 100%;
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-    }
+    }*/
 
     .sliderText{
-        font-size: 12px;
+        font-size: 17px;
     }
+}
+
+@media screen and (max-width: 900px){
+
+    .ad .container{
+        width: 100%;
+        /*flex-direction: column;*/
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vision .container{
+        flex-direction: column;
+    }
+
+    .vision .container .text{
+        width: 70%;
+    }
+
+    .vision .container .image img{
+        width: 500px;
+        height: 600px;
+    }
+
 }
