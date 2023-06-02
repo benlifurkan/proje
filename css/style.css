@@ -333,6 +333,45 @@ header nav .menu-icon i{
     border-radius: 50px;
 }
 
+.background{
+    margin-top: 300px;
+    background-image: url(../img/company/background/background.jpg);
+    background-size: cover;
+}
+
+.company{
+    color: #f0f0f0;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.company .container{
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.company .container .text{
+    font-size: 20px;
+    padding: 50px;
+    width: 50%;
+    word-spacing: 5px;
+}
+
+.company .container .image img{
+    text-align: right;
+    /*width: 400px;
+    height: 600px;*/
+    border-radius: 50px;
+}
+
+
+
 /* TOWN PROMOTION*/
 
 
@@ -489,6 +528,20 @@ header nav .menu-icon i{
     }
 
     .vision .container .image img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .company .container{
+        flex-direction: column;
+    }
+
+    .company .container .text{
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .company .container .image img{
         width: 300px;
         height: 300px;
     }
