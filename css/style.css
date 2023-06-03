@@ -644,6 +644,10 @@ footer .container .footer-box p a.footer-link:hover{
         margin-bottom: 95px;
     }
 
+    .promotion .container .content .subject p{
+        font-size: 15px;
+    }
+
     .content p{
         color: black;
     }
