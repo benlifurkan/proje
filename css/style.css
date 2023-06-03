@@ -454,7 +454,7 @@ header nav .menu-icon i{
 }
 
 .content p{
-    margin: 100px auto;
+    margin-top: 100px;
     font-size: 20px;
     position: relative;
     z-index: 1;
