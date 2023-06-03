@@ -547,6 +547,39 @@ footer .container .footer-box p a.footer-link:hover{
     color: #8c8c8c !important;
 }
 
+/* TOP BUTTON */
+
+.top{
+    position: relative;
+}
+
+.top .button{
+    display: inline-block;
+    background-color: #4f4f4f;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 30px;
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    transition: background-color .3s;
+    z-index: 1000;
+    transition: all , 0.5s;
+}
+
+.top .button:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+
+.top .button:active{
+    background-color: #555;
+}
+
 
 
 
