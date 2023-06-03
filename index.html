@@ -195,7 +195,7 @@
     </div>
 
     <div class="top">
-        <a class="button">
+        <a class="button" style="display: inline;">
             <i class="fa-solid fa-chevron-up"></i>
         </a>
     </div>
@@ -244,10 +244,13 @@
             slides[currentSlide].style.display = 'block';
             }
 
+
+      </script>
+      <script>
             $(document).ready(function(){
             
                 $(window).scroll(function(){
-                    if ($(this).scrollTop() > 300){
+                    if ($(this).scrollTop() > 500){
                         $('.button').fadeIn();
                     }
                     else{
@@ -256,7 +259,7 @@
                 });
 
                 $('.button').click(function(){
-                    $('html, body').animate({scrollTop : 0},500);
+                    $('html, body').animate({scrollTop : 0},800);
                     return false;
                 });
 
