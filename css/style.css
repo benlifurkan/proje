@@ -1,8 +1,7 @@
 /* POPPINS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
-/* INDIE FLOWER */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 *{
     margin: 0px;
@@ -513,6 +512,72 @@ header nav .menu-icon i{
     background-color: rgb(62, 6, 65);
 }
 
+/* FOOTER */
+
+footer{
+    margin-top: 400px;
+    background: url("../img/footer/footer-background.jpg");
+    border-radius: 50px 50px 0px 0px;
+    z-index: 1;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .container .footer-box{
+    width: 350px;
+    font-family: 'Poppins' , cursive;
+    color: #ddd;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+footer .container .footer-box h1{
+    color: #8aafde;
+    letter-spacing: 20px;
+    font-family: 'Bad Script' , cursive;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+footer .container .footer-box a{
+    text-decoration: none;
+    color: #ddd;
+    transition: 500ms all;
+}
+
+footer .container .footer-box a:hover{
+    color: #8aafde;
+}
+
+footer .container .footer-box a i{
+    font-size: 35px;
+    margin-top: 20px;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+footer .container .footer-box h2{
+    font-size: 25px;
+    border-bottom: 2px solid #8aafde;
+    line-height: 80px;
+}
+
+footer .container .footer-box p{
+    font-size: 15px;
+    text-align: left;
+}
+
+footer .container .footer-box p a.footer-link:hover{
+    color: #8c8c8c !important;
+}
+
 
 
 
@@ -571,31 +636,12 @@ header nav .menu-icon i{
         margin-bottom: 95px;
     }
 
-    /*.ad .container .adBox{
-        width: 100px;
-        height: 100px;
-    }
-
-    .ad .container .adBox .adBoxTitle{
-        font-size: 10px;
-        margin-top: 0px;
-        margin-bottom: 20px;
-    }
-
-    .ad .container .adBoxText{
-        font-size: 8px;
-    }*/
-
-    /*.ad .container{
-        width: 100%;
-        flex-direction: column;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-    }*/
-
     .content p{
         color: black;
+    }
+
+    footer .container{
+        flex-direction: column;
     }
 
 }
