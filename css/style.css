@@ -631,6 +631,10 @@ footer .container .footer-box p a.footer-link:hover{
         font-size: 14px;
     }
 
+    .ad .container .adBox{
+        cursor: default;
+    }
+
     .promotion .container .content .subject{
         width: 85%;
         margin-bottom: 95px;
