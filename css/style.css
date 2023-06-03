@@ -392,17 +392,10 @@ header nav .menu-icon i{
 
 /* MAIN PAGE WHY WE */
 
-/*.whyWe{
-    color: #f0f0f0;
-    margin-bottom: 100px;
+.whyWe{
     width: 100%;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-    position: relative;
-    right: 0;
-    bottom: 0;
-}*/
+    margin-bottom: 100px;
+}
 
 .video-container{
     position: absolute;
@@ -454,7 +447,7 @@ header nav .menu-icon i{
 }
 
 .content p{
-    margin-top: 100px;
+    margin: 100px auto;
     font-size: 20px;
     position: relative;
     z-index: 1;
