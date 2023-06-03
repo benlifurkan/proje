@@ -442,7 +442,7 @@ header nav .menu-icon i{
 
 .promotion .container .content .subject{
     margin: 0 auto 190px auto;
-    width: 72%;
+    width: 75%;
 }
 
 .promotion .container .content .subject h4{
@@ -472,7 +472,7 @@ header nav .menu-icon i{
 }
 
 .promotion .container .content .subject p{
-    text-align: justify;
+    text-align: center;
     color: #ebe5e5;
     margin-top: 20px;
 }
@@ -555,6 +555,7 @@ footer .container .footer-box p a.footer-link:hover{
 
 .top .button{
     display: inline-block;
+    /*background-color: #FF9800;*/
     background-color: #4f4f4f;
     justify-content: center;
     align-items: center;
@@ -569,6 +570,7 @@ footer .container .footer-box p a.footer-link:hover{
     transition: background-color .3s;
     z-index: 1000;
     transition: all , 0.5s;
+    display: none;
 }
 
 .top .button:hover{
