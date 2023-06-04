@@ -243,27 +243,6 @@
             currentSlide = (currentSlide + 1) % slides.length;
             slides[currentSlide].style.display = 'block';
             }
-
-
-      </script>
-      <script>
-            $(document).ready(function(){
-            
-                $(window).scroll(function(){
-                    if ($(this).scrollTop() > 500){
-                        $('.button').fadeIn();
-                    }
-                    else{
-                        $('.button').fadeOut();
-                    }
-                });
-
-                $('.button').click(function(){
-                    $('html, body').animate({scrollTop : 0},800);
-                    return false;
-                });
-
-            });
       </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="js/script.js"></script>
