@@ -257,7 +257,7 @@ header nav .menu-icon i{
     padding: 40px;
     margin: 10px 10px;
     background-color: black;
-    color: #f0f0f0;
+    color: #ffffff;
     border-radius: 10px;
     font-family: 'Poppins' , cursive;
     font-weight: bold;
@@ -266,6 +266,10 @@ header nav .menu-icon i{
 .ad .container .adBox .adBoxTitle{
     margin-top: 80px;
     margin-bottom: 20px;
+}
+
+.ad .container .adBox .adBoxText{
+    color: #ddd;
 }
 
 .ad .container #desk{
@@ -474,11 +478,89 @@ header nav .menu-icon i{
 .promotion .container .content .subject p{
     text-align: center;
     color: #ebe5e5;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .promotion .container .content .subject p span{
     background-color: rgb(62, 6, 65);
+}
+
+/* HOBBIES */
+
+.hobbies{
+    margin: 200px auto 100px auto;
+    width: 85%;
+    color: white;
+    background-color: rgb(20, 25, 41);
+    /*opacity: 85%;*/
+    border-radius: 50px 50px;
+    padding: 25px;
+}
+
+.hobbies .container .content .subject{
+    margin: 0 auto 190px auto;
+    width: 75%;
+}
+
+.hobbies .container .content .subject h4{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(236, 53, 53);
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.hobbies .container .content .subject .image{
+    margin: auto auto 30px auto;
+    text-align: center;
+}
+
+.hobbies .container .content .subject .image img{
+    width: 98%;
+    border-radius: 20px;
+    margin: auto auto 0px auto;
+}
+
+.hobbies .container .content .subject h3{
+    text-align: center;
+    color: rgb(115, 153, 240);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.hobbies .container .content .subject p{
+    text-align: center;
+    color: #ebe5e5;
+    margin-top: 10px;
+}
+
+.hobbies .container .content .subject p span{
+    background-color: rgb(62, 6, 65);
+}
+
+.ad .container #bicycle{
+    background-image: url(../img/hobbies/adBox/crop/bicycle.jpg);
+    background-size: cover;
+}
+.ad .container #swim{
+    background-image: url(../img/hobbies/adBox/crop/swim.jpg);
+    background-size: cover;
+}
+.ad .container #running{
+    background-image: url(../img/hobbies/adBox/crop/running.jpg);
+    background-size: cover;
+}
+.ad .container #fishing{
+    background-image: url(../img/hobbies/adBox/crop/fishing.jpg);
+    background-size: cover;
+}
+.ad .container #picture{
+    background-image: url(../img/hobbies/adBox/crop/picture.jpg);
+    background-size: cover;
+}
+.ad .container #newLanguage{
+    background-image: url(../img/hobbies/adBox/crop/newLanguage.jpg);
+    background-size: cover;
 }
 
 /* FOOTER */
@@ -658,6 +740,15 @@ footer .container .footer-box p a.footer-link:hover{
     }
 
     .promotion .container .content .subject p{
+        font-size: 15px;
+    }
+
+    .hobbies .container .content .subject{
+        width: 95%;
+        margin-bottom: 95px;
+    }
+
+    .hobbies .container .content .subject p{
         font-size: 15px;
     }
 
