@@ -563,6 +563,140 @@ header nav .menu-icon i{
     background-size: cover;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FRIENDS */
+
+
+#backgroundFriends{
+    min-height: 400px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-image: url(../img/friends/background/background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#backgroundFriends .container{
+    /*padding: 30px;*/
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#backgroundFriends .container .text{
+    margin: 0 auto;
+    line-height: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    /*padding: 50px;*/
+    width: 100%;
+    word-spacing: 5px;
+}
+
+
+.friends{
+    margin-top: 100px;
+}
+
+.friends  h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.friends .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends .container .friendsBox{
+    position: relative;
+    width: 270px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: black;
+    color: #ddd;
+    border-radius: 10px;
+    font-family: 'Poppins' , cursive;
+}
+
+.friends .container .friendsBox .person{
+    display: flex;
+}
+
+.friends .container .friendsBox .person .photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.friends .container .friendsBox .person .photo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.friends .container .friendsBox .person .name{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    line-height: 70px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.friends .container .friendsBox .text{
+    padding: 8px;
+    font-size: 15px;
+	color: #ddd;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 footer{
@@ -718,6 +852,7 @@ footer .container .footer-box p a.footer-link:hover{
 
 @media screen and (max-width: 700px){
     
+    
     header nav ul{
         display: none;
     }
@@ -750,6 +885,10 @@ footer .container .footer-box p a.footer-link:hover{
 
     .hobbies .container .content .subject p{
         font-size: 15px;
+    }
+
+    .friends .container{
+        flex-direction: column;
     }
 
     .content p{
