@@ -643,6 +643,14 @@ header nav .menu-icon i{
     font-family: 'Poppins' , cursive;
 }
 
+.friends .container #meltemBox{
+    background-image: url(../img/friends/crop/meltem.png);
+    background-size: cover;
+    position: relative;
+    width: 330px;
+    height: 480px;
+}
+
 .friends .container .friendsBox .person{
     display: flex;
 }
